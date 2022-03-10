@@ -18,5 +18,12 @@ class ViewController: UIViewController {
 
     @IBOutlet var colorSwatch: UIView!
     
-}
 
+    @IBAction func switchChanged(_ sender: UISwitch) {
+        if sender.isOn {
+            colorSwatch.backgroundColor = .red
+        } else {
+            colorSwatch.backgroundColor = .black
+        }
+}
+}
