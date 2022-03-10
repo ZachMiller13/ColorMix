@@ -11,9 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        colorView.backgroundColor = .black
+        
         // Do any additional setup after loading the view.
     }
 
-
+    @IBOutlet var colorView: UIView!
+    
 }
 
